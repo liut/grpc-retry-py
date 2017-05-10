@@ -7,7 +7,7 @@ setup(
     version='0.1.0',
     author='liut',
     author_email='liutao@licaigc.com',
-    url='https://git.lcgc.work/platform/grpc_retry',
+    url='https://git.lcgc.work/platform/grpc-retry',
     description='Retry call of gRPC stub.',
     py_modules=['grpc_retry'],
     install_requires=[
