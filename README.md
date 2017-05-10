@@ -1,5 +1,10 @@
 # Retry call of gRPC stub
 
+The implement of code inspiration from [google-cloud-python#2583](https://github.com/GoogleCloudPlatform/google-cloud-python/issues/2583)
+
+Tested OK with `grpcio==1.3.0`
+
+
 ```py
 from grpc_retry import retrying_stub_methods
 
